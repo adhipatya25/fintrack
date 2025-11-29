@@ -213,11 +213,3 @@ From this project, I learned:
 
 FinTrack is a complete personal finance tracking application built with modern web technologies. It is simple, fast, and helps users stay organized with their money.
 This project demonstrates practical skills in front-end development, data handling, UI design, and JavaScript logic.
-
----
-
-## 🙌 Author
-
-**Mayank Jatariya and Adhipatya Saxena**
-B.Tech (AI)
-Jagran Lakecity University
