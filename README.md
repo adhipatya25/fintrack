@@ -161,7 +161,7 @@ User preferences:
 * Currency
 * Data reset
 
-### 🔹 **About Page**
+### 🔹 **About Page (about.html)**
 
 Explains:
 
