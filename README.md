@@ -1,0 +1,224 @@
+# 📊 FinTrack – Smart Expense Tracker
+
+A Web Programming Course Project
+**By Mayank Jatariya and Adhipatya Saxena**
+
+---
+
+## 📌 Overview
+
+**FinTrack** is a simple, clean, and user-friendly expense tracking web application.
+It helps users manage their personal finances by allowing them to:
+
+* Add, view, edit, and delete transactions
+* Track income and expenses separately
+* Categorize daily expenses
+* View spending trends using charts
+* Analyze monthly expense data
+* Store everything in LocalStorage so that data stays even after closing the browser
+
+The project is built entirely using **HTML**, **TailwindCSS**, **JavaScript**, and **Chart.js**.
+
+---
+
+## 🛠️ Tools & Technologies Used
+
+### **Frontend**
+
+* **HTML5** – Builds the layout and structure
+* **TailwindCSS** – Styling and responsive UI
+* **JavaScript (ES6)** – Logic, DOM updates, form validation, page interaction
+
+### **Data Handling**
+
+* **LocalStorage** – Saves all user transactions permanently on the browser
+
+### **Visualizations**
+
+* **Chart.js** – Used to generate pie charts and bar charts
+
+### **Development Tools**
+
+* Visual Studio Code
+* Live Server
+* Chrome DevTools
+
+---
+
+## 🌟 Features
+
+### ✔ **Add, Edit, and Delete Transactions**
+
+Users can record daily expenses and income with amount, category, description, and date.
+
+### ✔ **Category-wise Expense Tracking**
+
+Pie chart shows where money is being spent.
+
+### ✔ **Monthly Expense Trend**
+
+Bar chart displays spending patterns across days of a selected month.
+
+### ✔ **Income vs Expense Chart**
+
+A comparison chart helps users understand their financial health.
+
+### ✔ **Multi-Page Navigation**
+
+The website includes:
+
+* Dashboard
+* Transactions Page
+* Analytics Page
+* Profile Page
+* About Page
+* Login/Signup Page
+* Navigation Menu
+
+### ✔ **Persistent Data Storage**
+
+All user data is saved in LocalStorage, so it doesn’t disappear after refreshing or closing the browser.
+
+### ✔ **Responsive Layout**
+
+TailwindCSS ensures the app works smoothly on mobile, tablet, and desktop.
+
+---
+
+## 🧭 How FinTrack Works (Simple Workflow)
+
+1. User adds a transaction → it is saved to LocalStorage
+2. Dashboard updates totals automatically
+3. Analytics reads stored data → generates charts
+4. User can edit or delete any entry
+5. Changes are updated across all pages in real-time
+
+---
+
+## 📂 Folder Structure (Updated)
+
+```
+WP-PROJECT-FINTRACK/
+│
+├── asset/
+│   └── logo.png
+│
+├── js/
+│   ├── analytics.js
+│   ├── auth.js
+│   ├── dashboard.js
+│   ├── profile.js
+│   ├── transactions.js
+│   └── utils.js
+│
+├── tailwindcss/
+│   ├── output.css
+│   └── style.css
+│
+├── about.html
+├── analytics.html
+├── dashboard.html
+├── index.html
+├── menu.html
+├── profile.html
+└── transactions.html
+```
+
+---
+
+## 📄 Pages Overview
+
+### 🔹 **Dashboard (dashboard.html)**
+
+Shows:
+
+* Total Income
+* Total Expense
+* Balance
+* Quick summaries
+
+### 🔹 **Transactions (transactions.html)**
+
+Allows:
+
+* Adding new entries
+* Editing and deleting existing entries
+* Viewing a transaction table
+
+### 🔹 **Analytics (analytics.html)**
+
+Shows:
+
+* Category-wise pie chart
+* Monthly trend bar chart
+* Income vs Expense chart
+
+### 🔹 **Profile (profile.html)**
+
+User preferences:
+
+* Update profile
+* Currency
+* Data reset
+
+### 🔹 **About Page**
+
+Explains:
+
+* Purpose of the app
+* How the system works
+* Contact/Feedback form
+
+### 🔹 **Login/Signup (index.html)**
+
+Simple login page for the project’s flow.
+
+### 🔹 **Menu Page (menu.html)**
+
+Navigation hub that links all major pages.
+
+---
+
+## 📈 Recommended Screenshots
+
+(Add these in your GitHub README if you want)
+
+* Dashboard Summary
+* Add Transaction Form
+* Transaction History Table
+* Category-wise Chart
+* Monthly Trend Chart
+* Income vs Expense Chart
+* Profile Page
+* About Page
+
+---
+
+## 🎓 Learning Outcomes
+
+From this project, I learned:
+
+* How to build and structure a multi-page website
+* How to design responsive layouts using TailwindCSS
+* Real-time DOM manipulation with JavaScript
+* Using LocalStorage to save user data
+* Creating charts with Chart.js
+* Organizing code across multiple JavaScript files
+* Debugging layout and logic issues
+* Designing a project from start to finish
+
+---
+
+## ✅ Conclusion
+
+FinTrack is a complete personal finance tracking application built with modern web technologies. It is simple, fast, and helps users stay organized with their money.
+This project demonstrates practical skills in front-end development, data handling, UI design, and JavaScript logic.
+
+---
+
+## 🙌 Author
+
+**Mayank Jatariya**
+**Adhipatya Saxena**
+B.Tech AI & DS
+Jagran Lakecity University

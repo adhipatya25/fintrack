@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transactions | Fintrack</title>
+  <link href="tailwindcss/output.css" rel="stylesheet">
+</head>
+<body class=" bg-linear-to-b from-pink-200 to bg-indigo-500 min-h-screen flex flex-col">
+
+  <!-- Header -->
+  <header class="w-full bg-purple-700 text-white p-4 shadow-md">
+
+  <!-- Top Row -->
+  <div class="flex justify-between items-center">
+      
+      <!-- Logo -->
+      <div class="flex items-center space-x-2">
+          <img src="asset/logo.png" class="w-10 h-10">
+          <h1 class="text-xl font-semibold">FinTrack</h1>
+      </div>
+
+      <!-- Desktop Navigation -->
+      <nav class="hidden md:flex space-x-6">
+          <a href="about.html" class="hover:underline">About</a>
+          <a href="dashboard.html" class="hover:underline">Dashboard</a>
+          <a href="transactions.html" class="hover:underline">Transactions</a>
+          <a href="analytics.html" class="hover:underline">Analytics</a>
+          <a href="profile.html" class="hover:underline">Profile</a>
+      </nav>
+
+      <!-- Hamburger Button (Mobile Only) -->
+      <button id="openMenuBtn" class="md:hidden">
+          <svg class="w-8 h-8" fill="none" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+      </button>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div id="mobileMenu" class="hidden mt-4 bg-purple-600 rounded-lg p-4 md:hidden">
+
+      <!-- Close Button -->
+      <div class="flex justify-end mb-4">
+          <button id="closeMenuBtn" class="text-white text-xl font-bold">✕</button>
+      </div>
+
+      <a href="about.html" class="block py-2 px-2 hover:bg-purple-500 rounded">About</a>
+      <a href="dashboard.html" class="block py-2 px-2 hover:bg-purple-500 rounded">Dashboard</a>
+      <a href="transactions.html" class="block py-2 px-2 hover:bg-purple-500 rounded">Transactions</a>
+      <a href="analytics.html" class="block py-2 px-2 hover:bg-purple-500 rounded">Analytics</a>
+      <a href="profile.html" class="block py-2 px-2 hover:bg-purple-500 rounded">Profile</a>
+
+  </div>
+</header>
+
+  <!-- Main Content -->
+  <main class="grow p-6">
+    <!-- Add Transaction Form -->
+    <section class="max-w-3xl mx-auto bg-white shadow-md rounded-lg p-6 mb-8">
+      <h2 class="text-2xl font-semibold text-purple-700 mb-4">Add New Transaction</h2>
+      <form id="transaction-form" class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div>
+          <label class="block mb-1 font-medium">Amount (₹)</label>
+          <input type="number" id="amount" class="w-full border rounded px-3 py-2 focus:outline-none" required>
+        </div>
+        <div>
+          <label class="block mb-1 font-medium">Type</label>
+          <select id="type" class="w-full border rounded px-3 py-2" required>
+            <option value="income">Income</option>
+            <option value="expense">Expense</option>
+          </select>
+        </div>
+
+        <!-- DATE FIELD ADDED -->
+        <div>
+          <label class="block mb-1 font-medium">Date</label>
+          <input type="date" id="date" class="w-full border rounded px-3 py-2 focus:outline-none" required>
+        </div>
+
+        <div>
+          <label class="block mb-1 font-medium">Category</label>
+          <input type="text" id="category" placeholder="e.g., Food, Travel" class="w-full border rounded px-3 py-2" required>
+        </div>
+        <div>
+          <label class="block mb-1 font-medium">Description</label>
+          <input type="text" id="description" placeholder="Optional" class="w-full border rounded px-3 py-2">
+        </div>
+        <div class="md:col-span-2">
+          <button type="submit" class="w-full bg-purple-500 text-white font-medium py-2 rounded hover:bg-purple-700">Add Transaction</button>
+        </div>
+      </form>
+    </section>
+
+    <!-- Transaction List -->
+    <section class="max-w-4xl mx-auto bg-white shadow-md rounded-lg p-6">
+      <h2 class="text-2xl font-semibold text-purple-700 mb-4">Transaction History</h2>
+      <table class="w-full border-collapse">
+        <thead>
+          <tr class="bg-gray-200 text-left">
+            <th class="p-2">Amount</th>
+            <th class="p-2">Type</th>
+            <th class="p-2">Category</th>
+            <th class="p-2">Description</th>
+            <th class="p-2">Date</th> <!-- NEW COLUMN -->
+            <th class="p-2">Actions</th>
+          </tr>
+        </thead>
+        <tbody id="transaction-list" class="text-sm">
+          <!-- Rows will be inserted here -->
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-700 text-white text-center py-3 text-sm">
+    © 2025 FINTRACK. All rights reserved.
+
+    <div>
+          <h3 class="text-xl font-semibold mb-4">Quick Links</h3>
+          <ul class="space-y-2">
+              <li><a href="dashboard.html" class="text-gray-400 hover:text-blue-400 transition-colors">Dashboard</a></li>
+              <li><a href="profile.html" class="text-gray-400 hover:text-blue-400 transition-colors">Profile</a></li>
+              <li><a href="analytics.html" class="text-gray-400 hover:text-blue-400 transition-colors">Analytics</a></li>
+              <li><a href="about.html" class="text-gray-400 hover:text-blue-400 transition-colors">About Us</a></li>
+          </ul>
+      </div>
+
+  </footer>
+
+  <script src="js/transactions.js"></script>
+</body>
+</html>
