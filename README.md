@@ -218,7 +218,6 @@ This project demonstrates practical skills in front-end development, data handli
 
 ## 🙌 Author
 
-**Mayank Jatariya**
-**Adhipatya Saxena**
-B.Tech AI & DS
+**Mayank Jatariya and Adhipatya Saxena**
+B.Tech (AI)
 Jagran Lakecity University
