@@ -184,13 +184,20 @@ Navigation hub that links all major pages.
 (Add these in your GitHub README if you want)
 
 * Dashboard Summary
+* <img width="900" height="418" alt="image" src="https://github.com/user-attachments/assets/33fb3db5-be4b-4fba-ab5c-f28127d89cca" />
+
 * Add Transaction Form
-* Transaction History Table
-* Category-wise Chart
-* Monthly Trend Chart
-* Income vs Expense Chart
+* <img width="900" height="438" alt="image" src="https://github.com/user-attachments/assets/c2b8b091-8e0f-4023-b41f-66dc0dce6025" />
+
+* Charts in Analytics Page
+* <img width="900" height="450" alt="image" src="https://github.com/user-attachments/assets/b21c192b-1dd7-4309-adbe-614f5b5fe1ac" />
+
 * Profile Page
+* <img width="900" height="416" alt="image" src="https://github.com/user-attachments/assets/ab6d5ccb-c3fd-435a-81ce-b9c899e5f13e" />
+
 * About Page
+* <img width="900" height="679" alt="image" src="https://github.com/user-attachments/assets/2ce4a192-3c67-42d1-8be4-0f1e839d062f" />
+
 
 ---
 
